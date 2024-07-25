@@ -110,20 +110,6 @@ object DIFramework {
             ),
         )
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         userService?.logout("me@myemail.com")
 
         println(
