@@ -24,7 +24,7 @@ kotlin { jvmToolchain(21) }
 
 spotless {
     kotlin {
-        target("**/*.kt")
+        target("**/*.kt", "build/generated/ksp/main/kotlin/com/ivanb/internals/*.kt")
         ktfmt("0.51").kotlinlangStyle()
         ktlint("1.3.1")
     }
